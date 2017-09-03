@@ -19,7 +19,7 @@ public class Minutes {
      * @param days the converted number of days
      * @return a string displaying the conversion of minutes to years and days
      */
-    public static String displayMinutesConversion(int original_minutes, int years, int days) {
+    static String displayMinutesConversion(int original_minutes, int years, int days) {
         return original_minutes + " minutes is approximately " + years + " years and " + days + " days.";
     }
 

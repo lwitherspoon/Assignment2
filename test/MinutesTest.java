@@ -11,8 +11,7 @@ public class MinutesTest {
 
         String expected = mins + " minutes is approximately 1902 years and 214 days.";
 
-        Minutes minutes = new Minutes();
-        assertEquals("Minutes not converted correctly", expected, minutes.displayMinutesConversion(mins, years, days));
+        assertEquals("Minutes not converted correctly", expected, Minutes.displayMinutesConversion(mins, years, days));
     }
 
 }
